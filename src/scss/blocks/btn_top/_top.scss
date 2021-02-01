@@ -1,0 +1,16 @@
+.up {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #000;
+  background: #fff;
+  height: 50px;
+  position: fixed;
+  display: block;
+  right: 10px;
+  bottom: 10px;
+  display: none;
+  img {
+    width: 100%;
+    display: block;
+  }
+}

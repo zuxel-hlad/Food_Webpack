@@ -1,0 +1,31 @@
+{
+  "name": "Food_Webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browsersList": [
+    "> 1%"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.8.2",
+    "es6-promise": "^4.2.8",
+    "nodelist-foreach-polyfill": "^1.2.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "es6-promise-polyfill": "^1.2.0"
+  }
+}
